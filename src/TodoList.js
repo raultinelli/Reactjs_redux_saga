@@ -15,7 +15,7 @@ TodoList.propTypes = {
     todos: PropTypes.arrayOf(PropTypes.shape({
         id: PropTypes.number,
         text: PropTypes.string
-    }))
+    })).isRequired
 }
 
 const mapStateToProps = state => ({
