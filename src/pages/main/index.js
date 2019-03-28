@@ -18,7 +18,7 @@ class Main extends Component {
                 description: PropTypes.string,
                 url: PropTypes.string
             })),
-            erro: Proptypes.oneOfType([null, PropTypes.string]),
+            error: PropTypes.oneOfType([null, PropTypes.string]),
         }).isRequired
     }
 
